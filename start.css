@@ -1,0 +1,446 @@
+*{
+    margin :0px;
+    font-style: arial;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.nav-logo{
+    height: 50px;
+    width: 120px;
+    margin-left: 5px;
+}
+.border{
+    border: 1.5px solid transparent;
+    border-radius: 5px;
+}
+.border:hover{
+    border-color: antiquewhite;
+}
+#logo{
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+    
+}
+.add1{
+    color: #cccccc;
+    font-size: 0.8rem;
+    margin-left: 15px;
+}
+.add2{
+    color: aliceblue;
+        font-size: 1rem;
+        margin-left: 2px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.address{
+    padding:15px 10px 2px 10px;
+}
+.search{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    width: 900px;
+    background-color: white;
+    border-radius: 5px;
+    
+}
+.search:hover{
+    border: 2px solid orange;
+}
+.search-sel{
+    background-color:rgb(204, 196, 185);
+    size: 40px;
+    width: 50px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-left: 5px;
+}
+.search-inp{
+    width: 100%;
+    font-size: 15px;
+    padding-left: 10px;
+}
+.button{
+    width: 50px;
+    background-color: rgb(223, 194, 1);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border:1px solid rgb(223, 194, 1);
+    font-size: 1.2rem;
+}
+.b2{
+    color: white;
+    background-color: #0f1111;
+    border: none;
+}
+.lang{
+    display: flex;
+    padding: 23px 5px 13px 5px;
+}
+.flag{
+    height:15px;
+    width: 20px;
+    background-image: url('flag.png');
+    background-size: cover;
+}
+.b2{
+    font-size: 12px;
+    font-weight: bold;
+}
+.Ac-option{
+    background-color: #0f1111;
+    color: white;
+    font-weight: bold;
+}
+.Accounts{
+    padding: 7px 5px 7px 5px;
+}
+.Accounts select{
+    background-color: #0f1111;
+    border: none;
+    color: white;
+}
+.ac-text{
+    font-size: 15px;
+}
+.re-p{
+    font-size: 15px;
+}
+.re-or{
+    font-weight: bold;
+}
+.return{
+    padding: 7px 5px 7px 5px;
+}
+.cart{
+    display: flex;
+    padding: 20px 5px 10px 5px;
+}
+.cart-im{
+    background-image: url('cart.png');
+    background-size: cover;
+    height: 20px;
+    width: 30px;
+}
+.cart p{
+    font-size: 20px;
+    margin-left: 4px;
+}
+.panel{
+    height: 38px;
+    width:100%;
+    background-color: #303939;
+    color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.p-all{
+    height:28px;
+    width:50px;
+    padding: 6px 3px 3px 3px;
+    margin-left: 10px;
+}
+.p-option p{
+    display: inline;
+    padding: 8px 10px 8px 10px;
+
+}
+.hero-section{
+    background-image: url('am1.jpg');
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+   }
+.hs-1{
+    position: relative;
+    height:40px;
+    width: 90%;
+    background-color: #f5f6f6;
+    bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hs-1 a{
+    text-decoration: none;
+    color: #007185;
+}
+.hs-1 a:hover{
+    color: rgb(206, 48, 48);
+    text-decoration: underline;
+}
+.shop-section{
+width: 100%;
+display: flex;
+justify-content: space-evenly;
+background-color: #e2e0e0;
+}
+.box{
+    height: 450px;
+    width: 20%;
+    margin-top: 20px;
+    padding: 10px 10px 10px 0px;
+    background-color: white;
+}
+.box h2{
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.s1-image{
+ background-image: url('am3.jpg');
+ height:350px;
+ background-size: cover; 
+ margin-top: 20px;
+  
+}
+.see {
+ color:#007185 ;
+ margin-top: 20px;
+ margin-left: 10px;
+ text-decoration: none;
+}
+.s2-image{
+    background-image: url('am4.jpg');
+    background-size: cover;
+    height: 350px;
+    margin-left: 10px;
+}
+.s3-image{
+    background-image: url('am6.jpg');
+    background-size: cover;
+    height: 350px;
+    margin-left: 10px;
+}
+.s4-image{
+    background-image: url('am5.jpg');
+    background-size: cover;
+    height: 250px;
+    margin-top: 20px;
+    
+}
+.sign{
+    height: 150px;
+    width: 100%;
+    background-color: white;
+   
+    
+}
+.sign-box{
+    height: 30px;
+    width: 90%;
+    border-radius: 5px;
+    background-color: rgb(213, 199, 4);
+    text-align: center;
+    margin: 20px 0px 0px 20px;
+    padding-top:5px ;
+}
+.box2{
+    height: 450px;
+    width: 20%;
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color:transparent;
+}
+.box2 h2{
+    margin-left: 10px;
+    padding-top: 10px;
+}
+.s5-image{
+    background-image: url('am7.jpg');
+    background-size: cover;
+    height: 350px;
+    margin-left: 10px;
+}
+.s6-image{
+    background-image: url('am8.jpg');
+    background-size: cover;
+    height: 350px;
+    margin-left: 10px;
+}
+.s7-image{
+    background-image: url('am9.jpg');
+    background-size: cover;
+    height: 350px;
+    margin-left: 10px;
+}
+.s8-image{
+    background-image: url('am10.jpg');
+    background-size: cover;
+    height: 350px;
+    margin-left: 10px;
+}
+.shop-box{
+    height: 320px;
+    width: 93%;
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px 10px 10px 15px ;
+    
+}
+.items{
+   height: 280px;
+   width: 100%;
+   background-color: rgb(255, 251, 251);
+   margin-top: 10px;
+   display: flex;
+   justify-content: space-evenly;
+}
+.item-box{
+    height: 200px;
+    width: 18%;
+    background-color: rgb(241, 235, 235);
+    margin-top: 5px;
+}
+.img{
+    margin-left: 70px;
+}
+.off{
+    width: 60px;
+    background-color:#cc0c39;
+    color: white;
+    border-radius:2px ;
+    padding: 4px;
+    margin-left: 5px;
+}
+.prices{
+    font-size: 20px;
+    display: flex;
+}
+.prices p{
+     font-size: 15px;
+    padding: 5px 0px 0px 3px;
+}
+.was{
+    text-decoration: line-through;
+    color: rgb(55, 55, 55);
+    font-size: 15px;
+    padding: 5px 0px 0px 5px;
+}
+.shop-box2{
+    height: 250px;
+    width: 95%;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 10px;
+    padding: 15px 0px 0px 10px;
+}
+
+.items2{
+    height: 200px;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.sc{
+    height: 200px;
+    width: 15%;
+}
+.pic1-image{
+    background-image: url('p1.jpg');
+    background-size: cover;
+    height: 350px;
+    margin-left: 10px;
+}
+.pic2-image{
+    background-image: url('pic3.jpg');
+    background-size: cover;
+    height: 350px;
+    margin-left: 10px;
+}
+.pic3-image{
+    background-image: url('pic4.jpg');
+    background-size: cover;
+    height: 350px;
+    margin-left: 10px;
+}
+.pic4-image{
+    background-image: url('pic5.jpg');
+    background-size: cover;
+    height: 350px;
+    margin-left: 10px;
+}
+   
+.back{
+    height: 50px;
+    width: 100%;
+    background-color: #303f52;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    align-items: center;
+}
+.back a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.foot2{
+    background-color: #232f3e;
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+.list{
+    color: white;
+    
+}
+.list a{
+    color: #DDDDDD;
+    text-decoration: none;
+    display: flex;
+    text-align: start;
+    padding: 5px 0px 5px 0px;
+}
+.list a:hover{
+    text-decoration: underline;
+}
+.foot3{
+    background-color: #232f3e;
+    height: 70px;
+    width: 100%;
+    padding: 0px 30px 0px 500px;
+    display: flex;
+    align-items: center;
+}
+.foot-box{
+    border: 2px solid white;
+    padding: 5px 10px 5px 10px;
+    color: rgb(255, 255, 255);
+    border-radius: 2px;
+    margin: 0px 10px 0px 10px;
+}
+.foot4{
+    height: 200px;
+    width: 100%;
+    background-color: #131a22;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.foot4 div{
+ display: flex;
+ align-items: start;
+ width: 100px;
+}
